@@ -22,8 +22,9 @@ public class MainActivity extends AppCompatActivity {
     double dtDistance = 0;
     double currPorWatts = 0;
     double distance = 0;
-    int l=0;
-    int pt =1000;
+    int f = 900*10^6;
+    int l= f/(3*10^8);
+    int pt =50; // --> dBm
     public static final String APP_NAME = "Main";
 
     @Override

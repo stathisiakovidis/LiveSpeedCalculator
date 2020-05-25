@@ -16,6 +16,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="35dp"
         android:textStyle="bold"
-        android:textAlignment="center"/>
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
